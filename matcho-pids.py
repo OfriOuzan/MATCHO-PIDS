@@ -85,7 +85,7 @@ def get_running_pids():
 
 def arguments():
     """This function sets the arguments."""
-    parser = argparse.ArgumentParser(description="'MATCHO-PIDS is an automation tool that match between containers and host PIDs.")
+    parser = argparse.ArgumentParser(description="MATCHO-PIDS is an automation tool that match between containers and host PIDs.")
     parser.add_argument('-p', '--pids', type=str, nargs='+', default=False, help='Get a list host processes PIDs to be '
                                                                                  'matched with container PIDs')
     parser.add_argument('-f', '--format', type=str, default='text', help='Specify output formatter: csv or text, default'
