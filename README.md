@@ -7,7 +7,7 @@ The MATCHO-PIDS is an automation tool that match between containers and host PID
 Python version 3
 
 # Install MATCHO-PIDS
-git clone [https://github.com/matcho-pids](https://github.com/OfriOuzan/MATCHO-PIDS)
+git clone https://github.com/OfriOuzan/MATCHO-PIDS
 
 # Execute MATCHO-PIDS
 cd matcho-pids
